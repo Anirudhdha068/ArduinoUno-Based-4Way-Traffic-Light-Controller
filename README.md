@@ -9,18 +9,6 @@
 
 ---
 
-## 📋 Table of Contents
-
-* [Features](features)
-* [Bill of Materials](#bill-of-materials)
-* [Schematic / Wiring](#schematic--wiring)
-* [How It Works](#how-it-works)
-* [Getting Started](#getting-started)
-* [Customizing Timings](#customizing-timings)
-* [Roadmap](#roadmap)
-* [Contributing](#contributing)
-* [License](#license)
-
 ## ✨ Features
 
 * Four independent signal heads (Red, Yellow, Green)
