@@ -4,7 +4,7 @@
 
 ## 🎥 Live Demo
 
-[▶ View the interactive simulation on Tinkercad](SIMULATION_LINK)
+[▶ View the interactive simulation on Tinkercad]([SIMULATION_LINK](https://www.tinkercad.com/things/dYmwXw7H49P-arduino-4way-traffic-light-controller-))
 *(replace `SIMULATION_LINK` with your actual URL)*
 
 ---
@@ -52,7 +52,7 @@
 
 > **Tip:** Keep LED cathodes tied to the common GND rail to reduce wiring chaos.
 
-![wiring diagram](docs/wiring.png)
+![wiring diagram](wiring.png)
 
 ## ⚙️ How It Works
 
@@ -110,4 +110,4 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 ## 🙌 Author
 
-Created with ❤️ by **<Your Name>**.
+Created by **Poriya Anirudhdha**.
