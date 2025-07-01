@@ -1,4 +1,4 @@
-# Arduino Four‑Way Traffic Light Controller 🚦
+# Arduino 4‑Way Traffic Light Controller 🚦
 
 > A compact, easily‑hackable prototype of a real‑world four‑phase traffic junction. Perfect for demos, workshops, or as the first building block of a smart‑city project.
 
