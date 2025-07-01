@@ -1,0 +1,43 @@
+# -------------------------------------------------------------
+# .gitattributes — Traffic‑Light Controller Project
+# -------------------------------------------------------------
+# This file tells Git how to treat different types of files
+# (line endings, diff/merge behaviour, and Large‑File Storage)
+# -------------------------------------------------------------
+
+# === 1. Large File Storage (Git LFS) ===
+# Track heavy binary assets so the main repo stays lightweight.
+# You must run `git lfs install` once per machine before cloning/pushing.
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.mov filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.stl filter=lfs diff=lfs merge=lfs -text
+*.psd filter=lfs diff=lfs merge=lfs -text
+
+# === 2. Images ===
+# Most images are fine in normal Git; mark as binary to avoid pointless diffs.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.svg text
+
+# === 3. Line‑ending normalization ===
+# Ensure cross‑platform consistency (LF everywhere except optional Windows scripts).
+*.ino  text eol=lf
+*.cpp  text eol=lf
+*.h    text eol=lf
+*.md   text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+*.sh   text eol=lf
+*.bat  text eol=crlf
+
+# === 4. Linguist overrides (GitHub language stats) ===
+# Ignore docs and media folders when calculating language breakdown.
+/docs/** linguist-vendored
+
+# === 5. Auto‑merge options ===
+# For JSON/CSV files you can enable text merge; here we leave default.
+
+# --- End of .gitattributes ---
