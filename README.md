@@ -40,7 +40,7 @@
 
 > **Tip:** Keep LED cathodes tied to the common GND rail to reduce wiring chaos.
 
-![wiring diagram](wiring.png)
+![wiring diagram](docs/Wiring.png)
 
 ## ⚙️ How It Works
 
