@@ -11,7 +11,7 @@
 
 ## 📋 Table of Contents
 
-* [Features](#features)
+* [Features](features)
 * [Bill of Materials](#bill-of-materials)
 * [Schematic / Wiring](#schematic--wiring)
 * [How It Works](#how-it-works)
