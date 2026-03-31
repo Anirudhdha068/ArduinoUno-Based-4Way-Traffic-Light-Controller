@@ -2,11 +2,6 @@
 
 > A compact, easily‑hackable prototype of a real‑world four‑phase traffic junction. Perfect for demos, workshops, or as the first building block of a smart‑city project.
 
-## 🎥 Live Demo
-
-[▶ View the interactive simulation on Tinkercad]([SIMULATION_LINK](https://www.tinkercad.com/things/dYmwXw7H49P-arduino-4way-traffic-light-controller-))
-*(replace `SIMULATION_LINK` with your actual URL)*
-
 ---
 
 ## ✨ Features
